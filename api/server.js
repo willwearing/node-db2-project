@@ -4,7 +4,7 @@ const express = require("express");
 const helmet = require("helmet");
 
 const carRouter = require("../cars/cars-router");
-// const db = require("../data/connection.js");
+const db = require("../data/connection.js");
 const server = express();
 
 server.use(helmet());
